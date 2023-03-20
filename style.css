@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 100px auto;
+    justify-content: center;
+    text-align: center;
+}
+
+.container h1 {
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+
+.container input {
+    height: 35px;
+    width: 30%;
+}
+
+.container button {
+    height: 35px;
+    width: 100px;
+    border-radius: 2px;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(194, 194, 194);
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.container button:hover {
+    background-color: rgb(63, 63, 63);
+    color: #fff;
+}
+
+.container section {
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+.container section ul {
+    max-width: 800px;
+    margin: 16px auto;
+}
+
+.container section ul li {
+    cursor: pointer;
+}
+
+.container section ul li:hover {
+    text-decoration: line-through;
+}
